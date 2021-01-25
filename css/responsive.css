@@ -1,0 +1,200 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /*======================
+    Index Page Css
+========================*/
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*======================
+    Index Page Css
+========================*/
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .product_part_one .product_info .pric .original_pric::before {
+        transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+    }
+    .product_part_one .product_info .pric .original_pric::after {
+        transform: rotate(165deg);
+        -webkit-transform: rotate(165deg);
+        -moz-transform: rotate(165deg);
+        -ms-transform: rotate(165deg);
+        -o-transform: rotate(165deg);
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*======================
+    Index Page Css
+========================*/
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 575.98px) {
+    /* Common css */
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        color: #999999;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /*======================
+    Index Page Css
+========================*/
+    .section_title h2 {
+        font-size: 24px;
+    }
+    .header_top .logo {
+        margin: 15px 0;
+    }
+    .header_top .logo img {
+        height: 26px;
+    }
+    .header_top .login_signup .login i {
+        margin-right: 5px;
+        color: #fff;
+    }
+    .banner_area {
+        background: #FFF3E4;
+    }
+    .banner_area .banner_text {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .banner_area .banner_text h2 {
+        font-size: 24px;
+    }
+    .banner_area .banner_text .offer_text h1 {
+        font-size: 47px;
+        letter-spacing: 0;
+        margin-top: 11px;
+        margin-left: 20px;
+    }
+    .banner_area .banner_text .offer_text span {
+        top: 36%;
+        left: -12px;
+        font-size: 12px;
+    }
+    .banner_area .banner_text .shop_now {
+        margin-top: 5px;
+        padding: 7px 23px;
+        font-size: 22px;
+    }
+    .product_part_one .img_color_btn {
+        margin: 15px 45px;
+    }
+    .product_part_one .img_color_btn .btn_img1 .overlay span {
+        font-size: 10px;
+    }
+    .product_part_one .product_info h2 {
+        font-size: 16px;
+    }
+    .product_part_one .product_info .brief p {
+        font-weight: 900;
+        color: #000;
+        font-size: 12px;
+    }
+    .product_part_one .product_info .pric {
+        margin: 0 30px;
+    }
+    .product_part_one .product_info .pric .add_acrd {
+        padding: 10px 9px;
+    }
+    .product_part_one .product_info .pric h4 {
+        font-size: 22px;
+    }
+    .product_part_one .product_info .pric .offer_pric .offer {
+        position: absolute;
+        color: #EB038C;
+        transform: rotate(270deg);
+        top: 18%;
+        left: 3%;
+        font-size: 8px;
+        font-weight: 700;
+    }
+    .subscribe_box h4 {
+        font-size: 16px;
+        color: #000;
+    }
+    .subcribe .subscribe_box form {
+        text-align: center;
+    }
+    .subcribe form input {
+        background: #fff;
+        width: 97%;
+        color: #000;
+        border: 0;
+        padding: 10px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .subcribe form button {
+        text-transform: uppercase;
+        border: 0;
+        background: #FF2BA8;
+        padding: 12px 20px;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 5px;
+    }
+    .instergram_img .image1 {
+        margin-bottom: 50px;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .hrader h3 {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    footer .footer_nav li {
+        padding: 10px;
+        border-bottom: 1px solid;
+    }
+    footer .footer_nav li a {
+        color: #ddd;
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    footer .social_icon a {
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: #FF2BA8;
+        margin: 0 5px;
+        border-radius: 2px;
+    }
+    footer .social_icon {
+        margin-bottom: 40px;
+    }
+    .copyright_text p {
+        margin-bottom: 0;
+        color: #fff;
+    }
+    .copyright_text a {
+        color: #FF2BA8;
+    }
+}
